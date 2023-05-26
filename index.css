@@ -1,0 +1,50 @@
+.center{
+    text-align: center;
+}
+#clockcontainer{
+    position: relative;
+    margin: auto;
+    /* border: 2px solid red; */
+    height: 25vw;
+    width: 25vw;
+    background: url(Aclock.png);
+    background-size: 175%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#hour,#minute,#second{
+    position: absolute;
+    background: black;
+    border-radius: 5px;
+}
+
+#hour{
+    height: 57px;
+    width: 5px;
+    top: 105px;
+    left: 160px;
+    opacity: 0.9;
+    
+    
+}
+
+#minute{
+    height: 86px;
+    width: 5px;
+    top: 75px;
+    left: 160px;
+    opacity: 0.6;
+    
+}
+
+#second{
+    height: 111px;
+    width: 5px;
+    top: 51px;
+    left: 160px;
+    opacity: 0.1
+    
+}
+
